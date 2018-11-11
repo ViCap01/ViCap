@@ -1,2 +1,2 @@
 # ViCap
-## New Task: Video Interactive Captioning with Human Prompts
+## New Task: Video Interactive Captioning with Human Prompts (ViCap)
