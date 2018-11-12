@@ -57,3 +57,5 @@ The following table shows the performance of prompt supervision. We can see that
 For the case of prompt supervision, we make some ablation analysis. The results are shown in the following two tables.
 ![Table6](https://github.com/ViCap01/ViCap/blob/master/pic/Table6.jpg "Ablation Analysis of Prompt Supervision")
 ![Table7](https://github.com/ViCap01/ViCap/blob/master/pic/Table7.jpg "Ablation Analysis of Prompt Supervision")
+
+### Qualitative Results
