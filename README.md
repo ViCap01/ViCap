@@ -59,3 +59,4 @@ For the case of prompt supervision, we make some ablation analysis. The results 
 ![Table7](https://github.com/ViCap01/ViCap/blob/master/pic/Table7.jpg "Ablation Analysis of Prompt Supervision")
 
 ### Qualitative Results
+![result](https://github.com/ViCap01/ViCap/blob/master/pic/result.jpg "Qualitative Results")
