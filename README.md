@@ -36,3 +36,7 @@ We extend MSRVTT-2016 dataset. And we take the 1st to 4500th video clips of the 
 |![example4](https://github.com/ViCap01/ViCap/blob/master/pic/example4.gif "Example4") | **Initial**: ["a man is talking to a crowd."]  **Prompts0**: ["a group."]  **Ground-truth0**: ["a group of people are talking at a wwe event."] **Prompts1**: ["a man."] **Ground-truth1**: ["a man is talking to a man about wwe."] **Prompts2**: ["an announcer."] **Ground-truth2**: ["an announcer speaks into a microphone at a wwe match."]  |
 |![example5](https://github.com/ViCap01/ViCap/blob/master/pic/example5.gif "Example5") | **Initial**: ["a man is driving a car in a road."]  **Prompts0**: ["a people."]  **Ground-truth0**: ["a people is riding a ski lift type of vehicle up the side of the hill."] **Prompts1**: ["people ride."] **Ground-truth1**: ["people ride a gondola up a steep mountain and pass picturesque views."] **Prompts2**: ["a beautiful."] **Ground-truth2**: ["a beautiful view of greenery and river from a top view."]  |
 |![example6](https://github.com/ViCap01/ViCap/blob/master/pic/example6.gif "Example6") | **Initial**: ["a woman is talking about a woman."]  **Prompts0**: ["a girl."]  **Ground-truth0**: ["a girl casts a spell to alter another girls hair."] **Prompts1**: ["disney is."] **Ground-truth1**: ["disney is promoting a new show for their channel."] **Prompts2**: ["some scenes."] **Ground-truth2**: ["some scenes from a tv show are playing in which people are talking."]  |
+
+## Experiments
+
+### Performance of Full Supervision
