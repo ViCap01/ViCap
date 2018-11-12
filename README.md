@@ -16,5 +16,8 @@ We use a GRU unit to encode the video and the initial caption. Then we devise a 
 As shown below, we take the GRU decoder as an example to illustrate the difference between these two training ways, i.e., during the training of full supervision (the left part), at each time step, we take the ground-truth word (the red word) as the input of decoder to predict the next word. Whereas, during the training of prompt supervision (the right part), besides the prompt words (the purple words), we only take the previous output (the green word) of the decoder as the current input of the decoder.
 ![Task](https://github.com/ViCap01/ViCap/blob/master/pic/prompts.jpg "Illustration of prompt supervision")
 
-For the weak supervision with only prompts, we devise a method which use the output of the decoder to reconstruct the input of the decoder.
+For the weak supervision with only prompts, we devise a method which use the output of the decoder to reconstruct the input of the decoder. As shown below, we illustrate the structure of GRU reconstruction network.
 ![Task](https://github.com/ViCap01/ViCap/blob/master/pic/GRURecon.jpg "Illustration of GRU Reconstruction Network")
+
+As shown below, we illustrate the structure of convolutional reconstruction network.
+![Task](https://github.com/ViCap01/ViCap/blob/master/pic/cnnrecon.jpg "Illustration of Convolutional Reconstruction Network")
