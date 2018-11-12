@@ -5,3 +5,7 @@ As a video clip often includes rich content and semantic details, different peop
 ![Task](https://github.com/ViCap01/ViCap/blob/master/pic/intro.jpg "An example of our task")
 
 From a practical view, a human could provide any prompts in any form, e.g., in different length. And the prompts could appear anywhere in the generated captions. In this paper, we move forward a first step in that we set the prompts to be the first two words of the generating caption. Thus this is a task which is different from traditional captioning tasks, which may support various applications, such as video retrieval, video chat robot, and even human-robot interaction. Here, we devise the ViCap to include a video encoder, an initial caption encoder, and a refined caption generator. Moreover, we show that the ViCap can be trained via a full supervision way, i.e., supervised with the ground-truth captions, or a weak supervision way, i.e., weakly supervised with only the prompts.
+
+## The Decoder of ViCap Model
+
+We use a GRU unit to encode the video and the initial caption. Then we devise a improved GRU decoder and a convolutional decoder.
