@@ -44,3 +44,6 @@ The following table shows the performance of full supervision. We can see that t
 ![Table1](https://github.com/ViCap01/ViCap/blob/master/pic/Table1.jpg "Performance of Full Supervision")
 
 ### Ablation Analysis of Full Supervision
+![Table2](https://github.com/ViCap01/ViCap/blob/master/pic/Table2.jpg "Ablation Analysis of Full Supervision")
+![Table3](https://github.com/ViCap01/ViCap/blob/master/pic/Table3.jpg "Ablation Analysis of Full Supervision")
+![Table4](https://github.com/ViCap01/ViCap/blob/master/pic/Table4.jpg "Ablation Analysis of Full Supervision")
