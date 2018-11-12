@@ -19,5 +19,5 @@ As shown below, we take the GRU decoder as an example to illustrate the differen
 For the weak supervision with only prompts, we devise a method which use the output of the decoder to reconstruct the input of the decoder. As shown below, we illustrate the structure of GRU reconstruction network.
 ![Task](https://github.com/ViCap01/ViCap/blob/master/pic/GRURecon.jpg "Illustration of GRU Reconstruction Network")
 
-As shown below, we illustrate the structure of convolutional reconstruction network.
+As shown below, we illustrate the structure of convolutional reconstruction network. And we stack three dilated convolutional layers as the reconstruction network. The dilated rate is respectively set to 1, 2, 2.
 ![Task](https://github.com/ViCap01/ViCap/blob/master/pic/cnnrecon.jpg "Illustration of Convolutional Reconstruction Network")
