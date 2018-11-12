@@ -48,3 +48,7 @@ For the case of full supervision, we make some ablation analysis. The results ar
 ![Table2](https://github.com/ViCap01/ViCap/blob/master/pic/Table2.jpg "Ablation Analysis of Full Supervision")
 ![Table3](https://github.com/ViCap01/ViCap/blob/master/pic/Table3.jpg "Ablation Analysis of Full Supervision")
 ![Table4](https://github.com/ViCap01/ViCap/blob/master/pic/Table4.jpg "Ablation Analysis of Full Supervision")
+
+### Performance of Prompt Supervision
+The following table shows the performance of prompt supervision. We can see that the performance of the convolutional reconstruction network outperforms that of the GRU reconstruction network.
+![Table5](https://github.com/ViCap01/ViCap/blob/master/pic/Table5.jpg "Performance of Prompt Supervision")
