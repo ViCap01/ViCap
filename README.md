@@ -9,3 +9,4 @@ From a practical view, a human could provide any prompts in any form, e.g., in d
 ## The Decoder of ViCap Model
 
 We use a GRU unit to encode the video and the initial caption. Then we devise a improved GRU decoder and a convolutional decoder. Particularly, for the convolutional decoder, we stack multiple dilated convolutional layers followed by gated activation units, the goal of which is to capture dependencies among frame and word sequences.
+![Task](https://github.com/ViCap01/ViCap/blob/master/pic/cnndecoder.jpg "Illustration of CNN decoder")
