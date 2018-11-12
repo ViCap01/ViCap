@@ -52,3 +52,8 @@ For the case of full supervision, we make some ablation analysis. The results ar
 ### Performance of Prompt Supervision
 The following table shows the performance of prompt supervision. We can see that the performance of the convolutional reconstruction network outperforms that of the GRU reconstruction network.
 ![Table5](https://github.com/ViCap01/ViCap/blob/master/pic/Table5.jpg "Performance of Prompt Supervision")
+
+### Ablation Analysis of Prompt Supervision
+For the case of prompt supervision, we make some ablation analysis. The results are shown in the following two tables.
+![Table6](https://github.com/ViCap01/ViCap/blob/master/pic/Table6.jpg "Ablation Analysis of Prompt Supervision")
+![Table7](https://github.com/ViCap01/ViCap/blob/master/pic/Table7.jpg "Ablation Analysis of Prompt Supervision")
