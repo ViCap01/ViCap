@@ -42,3 +42,5 @@ We extend MSRVTT-2016 dataset. And we take the 1st to 4500th video clips of the 
 ### Performance of Full Supervision
 The following table shows the performance of full supervision. We can see that the performance of convolutional decoder outperforms the GRU decoder.
 ![Table1](https://github.com/ViCap01/ViCap/blob/master/pic/Table1.jpg "Performance of Full Supervision")
+
+### Ablation Analysis of Full Supervision
