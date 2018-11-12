@@ -26,6 +26,8 @@ As shown below, we illustrate the structure of convolutional reconstruction netw
 
 We extend MSRVTT-2016 dataset. And we take the 1st to 4500th video clips of the dataset as the training set of the pre-trained model and use the 4501st to 5000th video clips of the dataset as the validation set. For ViCap models, we take the 5001st to 8500th video clips of the dataset as the training set. And we take the 8501st to 9000th video clips as the validation set and use 9001st to 10000th video clips as the test set. Besides, for each clip of the validation and test set of ViCap models, we give three different semantic sentences as the annotations. Finally, when we evaluate the performance of ViCap models, for each one of the annotations in the test set, we remove the first two words and take the remaining words as the ground-truth of evaluation.
 
+**Examples**: `Videos we choose to show here are short limited the the size constraint of GIF in github.`
+
 | Videos | Interactive Captioning pairs |
 | ---- | ---- |
 |![example1](https://github.com/ViCap01/ViCap/blob/master/pic/example1.gif "Example1") | **Initial**: ["a man is talking about a car."]  **Prompts0**: ["a kids."]  **Ground-truth0**: ["a kids wearing a hat going inside the bus and two persons are standing behind them."] **Prompts1**: ["a man."] **Ground-truth1**: ["a man along with his two kids going inside the bus."] **Prompts2**: ["westlake fire."] **Ground-truth2**: ["westlake fire department men are save and rescue in small children."]  |
