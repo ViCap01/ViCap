@@ -28,4 +28,4 @@ We extend MSRVTT-2016 dataset. And we take the 1st to 4500th video clips of the 
 
 | Videos | Interactive Captioning pairs |
 | ---- | ---- |
-|![example1](https://github.com/ViCap01/ViCap/blob/master/pic/example1.gif "Example1") | **Initial**: ["a man is talking about a car."] **Prompts**: ["a kids."] **Ground-truth**: ["a kids wearing a hat going inside the bus and two persons are standing behind them."  |
+|![example1](https://github.com/ViCap01/ViCap/blob/master/pic/example1.gif "Example1") | **Initial**: ["a man is talking about a car."]  **Prompts0**: ["a kids."]  **Ground-truth0**: ["a kids wearing a hat going inside the bus and two persons are standing behind them."  |
